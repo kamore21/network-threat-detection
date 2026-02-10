@@ -1,20 +1,22 @@
-# Ignore the following files
+# Python-related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Node.js modules
-node_modules/
+# Jupyter Notebook
+.ipynb_checkpoints/
 
-# Log files
-*.log
+# IDE
+.vscode/
+.idea/
 
-# Environment variables
+# Environment
 .env
-
-# Build output
-/dist/
-
-# Temporary files
-*.tmp
-
-# Miscellaneous
-.DS_Store
-Thumbs.db
+*.env
